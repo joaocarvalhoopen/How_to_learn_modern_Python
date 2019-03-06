@@ -1,5 +1,8 @@
 # How to learn modern Python
 **A guide to the adventurer**<br>
+<br>
+[Click para versão em Português/Portuguese version](./README_Portugues.md)  <br>
+<br>
 First to learn modern Python you have to choose an operating system. The Python is the same in all of them but some settings and the libs used by your future programs may be supported in one OS and not in the other OS. In this guide I focus on the development in Linux and Windows, but the info can also be useful for other operating systems. <br>
 
 * In this context we start by installing Ubuntu Linux, as a stand alone machine or as a virtual machine. If you plan to use Windows jump this step. <br>
@@ -31,7 +34,7 @@ $ conda -V <br>
 Update conda <br>
 $ conda update conda <br>
 <br>
-Create a virtual environment for your project (substitute yourenvname by the name of the environment ex: maze_generator and the x.x by 3.7 the version of Python in the future environment). <br>
+Create a virtual environment for your project (substitute yourenvname by the name of the environment ex: test_01_proj and the x.x by 3.7 the version of Python in the future environment). <br>
 $ conda create -n yourenvname python=x.x anaconda <br>
 ex: $ conda create -n test_01_proj python=3.7 anaconda <br>
 <br>
