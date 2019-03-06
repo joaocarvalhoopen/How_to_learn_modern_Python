@@ -42,7 +42,7 @@ To activate the environment <br>
 $ source activate yourenvname <br>
 ex: $ source activate test_01_proj <br>
 or <br>
-$ conda activate maze_generator  <br>
+$ conda activate test_01_proj  <br>
 <br>
 To desactivate an active environment <br>
 $ source activate yourenvname <br>
