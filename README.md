@@ -72,7 +72,10 @@ $ conda install -n test_01_proj -c conda-forge ctags
 For Windows copy the file ".env" in github to your project directory. <br>
 For Linux copy the file ".env_linux" in github to your project directory and rename it ".env". 
 
-* Now for Python it self. Follow the free official tutorial of Python and study it well. <br>
+* Now for Python it self. View two times the following 45 minutes video that explains the main parts of the Python language. View it from the beginning to the end, even if you don’t understand all of what is explained. In the next step the Python language will be explained in more detail. Ignore the part of the video that teach how to install Python and the IDE PyCharm. <br> 
+[Python Programming video by Derek Banas](https://www.youtube.com/watch?v=N4mEzFDjqtA)  
+
+* Follow the free official tutorial of Python and study it well. <br>
 [The Python Tutorial](https://docs.python.org/3/tutorial/) 
 
 * Read the following book from cover to cover, don't look at the title see the table of contents it's a really good Python all around book. <br>
@@ -81,6 +84,8 @@ For Linux copy the file ".env_linux" in github to your project directory and ren
 * You only really understand a programming language and programming generally, after you have sean many projects written in the language. So study the following book full of projects and the respective code. <br>
 [Python Playground: Geeky Projects for the Curious Programmer 1st Ed by Mahesh Venkitachalam](https://www.amazon.com/Python-Playground-Projects-Curious-Programmer-ebook/dp/B017AH8H7I/ref=pd_sim_351_6/175-5456264-3791003) 
 
+* For all your Python development your main source of documentation will always be <br>
+[Python 3.x documentation](https://docs.python.org/3/)
 
 If you do all this steps you will have a fair knowledge of Python and can start doing some cool projects in Python. <br>
 

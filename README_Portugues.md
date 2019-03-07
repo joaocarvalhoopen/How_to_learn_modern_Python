@@ -28,38 +28,71 @@ Em primeiro lugar para aprender Python moderno, temos de escolher o sistema oper
 * Crie uma directoria para o projecto ex: proj/test_01_proj, crie um ficheiro de Python com a extensão ".py", ex: test_01.py e escreva "print("Hello World!")".
 
 * Criação e configuração do virtual environment (ambiente virtual) e dos packages (pacotes) em Anaconda para o projecto no Linux ou Windows. Isto significa que os pacotes que serão instalados serão somente instalados no ambiente virtual de Python usado no projecto e que não irão ser instalados na instalação base do Python.<br>
-Ver a versão do conda que está instalada: <br>
-$ conda -V <br>
-<br>
-Actualizar a versão do conda <br>
-$ conda update conda <br>
-<br>
-Crie um virtual environment (ambiente virtual) para o seu projecto (substitua yourenvname pelo nome do ambiente virtual ex: test_01_proj e o x.x por 3.7 , que será a versão do Python do seu futuro ambiente virtual). <br>
-$ conda create -n yourenvname python=x.x anaconda <br>
-ex: $ conda create -n test_01_proj python=3.7 anaconda <br>
-<br>
-Veja o ambiente que foi criado. <br>
-$ conda info -e <br>
-<br>
-Active o ambiente <br>
-$ source activate yourenvname. <br>
-ex: $ source activate test_01_proj <br>
-or <br>
-$ conda activate test_01_proj  <br>
-<br>
-Para desactivar o ambiente. <br>
-$ source activate yourenvname <br>
-ex: $ source desactivate <br>
-or <br>
-$ conda deactivate <br>
-<br>
-Para instalar pacotes adicionais no seu ambiente virtual. <br>
-$ conda install -n yourenvname [package] <br>
-ex: $ conda install -n test_01_proj svgwrite <br>
-<br>
-Para apagar um ambiente virtual que já não seja necessário. <br>
-$ conda remove -n yourenvname -all <br>
-ex: $ conda remove -n test_01_proj -all <br>
+Ver a versão do conda que está instalada:
+
+```
+    $ conda -V
+```
+
+Actualizar a versão do conda
+
+```
+    $ conda update conda
+```
+
+Crie um virtual environment (ambiente virtual) para o seu projecto (substitua yourenvname pelo nome do ambiente virtual ex: test_01_proj e o x.x por 3.7 , que será a versão do Python do seu futuro ambiente virtual).
+
+```
+    $ conda create -n yourenvname python=x.x anaconda 
+    ex: $ conda create -n test_01_proj python=3.7 anaconda
+```
+
+Veja o ambiente que foi criado.
+
+```
+    $ conda info -e
+```
+
+Active o ambiente
+
+```
+    $ source activate yourenvname. 
+    ex: $ source activate test_01_proj 
+```
+
+or
+
+```
+    $ conda activate test_01_proj
+```
+
+
+Para desactivar o ambiente.
+
+```
+    $ source activate yourenvname
+    ex: $ source desactivate
+```
+
+or
+
+```
+    $ conda deactivate
+```
+
+Para instalar pacotes adicionais no seu ambiente virtual.
+
+```
+    $ conda install -n yourenvname [package]
+    ex: $ conda install -n test_01_proj svgwrite
+```
+
+Para apagar um ambiente virtual que já não seja necessário.
+
+```
+    $ conda remove -n yourenvname -all 
+    ex: $ conda remove -n test_01_proj -all 
+```
 
 * Dentro do Visual Studio Code, com o seu projecto aberto, seleccione o interpretador de Python usar neste projecto.<br>
 ctrl + shift + p depois escreva o comando "Python select interpreter" e escolha o virtual environment test01_proj que acabou de criar, da caixa de selecção drop-down.   
@@ -72,7 +105,10 @@ $ conda install -n test_01_proj -c conda-forge ctags
 Para o Windows copie o ficheiro ".env" do github para a directoria do projecto. <br>
 Para o Linux copie o ficheiro ".env_linux" do github para a directoria do projecto e renomei-o de ".env". 
 
-* Agora em termos da linguagem Python propriamente dita. Leia atentamente o tutorial oficial do Python que é gratuito e é muito bom. Estude-o bem que vale a pena!  <br>
+* Agora em termos da linguagem Python propriamente dita. Vejam duas vezes o seguinte vídeo de 45 minutos a explicar a linguagem Python. Vejam do início até ao fim mesmo que não consigam perceber tudo o que é explicado. No passo seguinte a linguagem Python vai ser explicada mais com mais detalhe. Ignorem a parte da instalação do Python e do IDE PyCharm. <br>
+[Python Programming video by Derek Banas](https://www.youtube.com/watch?v=N4mEzFDjqtA)  
+
+* Leia atentamente o tutorial oficial do Python que é gratuito e é muito bom. Estude-o bem que vale a pena!  <br>
 [The Python Tutorial](https://docs.python.org/3/tutorial/) 
 
 * Leia o livro seguinte do início ao fim, não leve à letra o título do livro, veja o índex do livro. Este livro é um livro muito bom e muito abrangente que cobre várias áreas do desenvolvimento em Python. <br>
@@ -81,6 +117,8 @@ Para o Linux copie o ficheiro ".env_linux" do github para a directoria do projec
 * Uma pessoa só percebe verdadeiramente uma linguagem de programação e a arte de programar, depois de ter visto e estudado vários projectos escritos na linguagem. Por isso peço-vos que estudem o livro seguinte que está cheio de pequenos projectos em várias áreas com o respectivo código em Python. <br>
 [Python Playground: Geeky Projects for the Curious Programmer 1st Ed by Mahesh Venkitachalam](https://www.amazon.com/Python-Playground-Projects-Curious-Programmer-ebook/dp/B017AH8H7I/ref=pd_sim_351_6/175-5456264-3791003) 
 
+* Para todo o desenvolvimento em Python a fonte principal de documentação será sempre o link seguinte para a documentação oficial <br>
+[Python 3.x documentation](https://docs.python.org/3/)
 
 Se fizer todos os passos anteriores, irá possuir um conhecimento bastante abrangente de Python e com isso poderá começar a fazer projectos muito interessantes e divertidos em Python. <br>
 
