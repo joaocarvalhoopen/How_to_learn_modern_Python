@@ -27,7 +27,8 @@ Em primeiro lugar para aprender Python moderno, temos de escolher o sistema oper
 
 * Crie uma directoria para o projecto ex: proj/test_01_proj, crie um ficheiro de Python com a extensão ".py", ex: test_01.py e escreva "print("Hello World!")".
 
-* Criação e configuração do virtual environment (ambiente virtual) e dos packages (pacotes) em Anaconda para o projecto no Linux ou Windows. Isto significa que os pacotes que serão instalados serão somente instalados no ambiente virtual de Python usado no projecto e que não irão ser instalados na instalação base do Python.<br>
+* Criação e configuração do virtual environment (ambiente virtual) e dos packages (pacotes) em Anaconda para o projecto no Linux ou Windows. Isto significa que os pacotes que serão instalados serão somente instalados no ambiente virtual de Python usado no projecto e que não irão ser instalados na instalação base do Python.
+
 Ver a versão do conda que está instalada:
 
 ```
@@ -97,9 +98,12 @@ Para apagar um ambiente virtual que já não seja necessário.
 * Dentro do Visual Studio Code, com o seu projecto aberto, seleccione o interpretador de Python usar neste projecto.<br>
 ctrl + shift + p depois escreva o comando "Python select interpreter" e escolha o virtual environment test01_proj que acabou de criar, da caixa de selecção drop-down.   
 
-* Instale os pacotes de Python, PyLint e CTags no ambiente virtual, eles serão usados para detectar os erros quando grava e para navegar entre os simbolos do código. <br>
-$ conda install -n test_01_proj -c conda-forge pylint <br>
-$ conda install -n test_01_proj -c conda-forge ctags
+* Instale os pacotes de Python, PyLint e CTags no ambiente virtual, eles serão usados para detectar os erros quando grava e para navegar entre os simbolos do código.
+
+```
+    $ conda install -n test_01_proj -c conda-forge pylint
+    $ conda install -n test_01_proj -c conda-forge ctags
+```
 
 * No Visual Studio Code, copie o ficheiro ".env" que está dentro da directoria do projecto do GitHub. Este ficheiro vai inicializar as variáveis de ambiente na linha de comandos (shell), tem de ajustar os paths tendo em conta o seu user e o nome do seu ambiente virtual. É necessário fazer este passo pois o VSCode não activa automaticamente o ambiente virtual quando faz o debug.<br>
 Para o Windows copie o ficheiro ".env" do github para a directoria do projecto. <br>

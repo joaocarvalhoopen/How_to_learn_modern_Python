@@ -28,45 +28,81 @@ First to learn modern Python you have to choose an operating system. The Python 
 * Create a new directory for the project ex: proj/test_01_proj, create a Python file with extension ".py", ex: test_01.py and write "print("Hello World!")".
 
 * Create and setup the virtual environment and the packages in Anaconda for the project on Linux or Windows. This will means that the packages you install will be installed specifically for your project virtual environment an not for the base installation.<br>
-See the conda version: <br>
-$ conda -V <br>
-<br>
-Update conda <br>
-$ conda update conda <br>
-<br>
-Create a virtual environment for your project (substitute yourenvname by the name of the environment ex: test_01_proj and the x.x by 3.7 the version of Python in the future environment). <br>
-$ conda create -n yourenvname python=x.x anaconda <br>
-ex: $ conda create -n test_01_proj python=3.7 anaconda <br>
-<br>
-See the environments that were created. <br>
-$ conda info -e <br>
-<br>
-To activate the environment <br>
-$ source activate yourenvname <br>
-ex: $ source activate test_01_proj <br>
-or <br>
-$ conda activate test_01_proj  <br>
-<br>
-To desactivate an active environment <br>
-$ source activate yourenvname <br>
-ex: $ source desactivate <br>
-or <br>
-$ conda deactivate <br>
-<br>
-Install additional Python packages to a virtual environment. <br>
-$ conda install -n yourenvname [package] <br>
-ex: $ conda install -n test_01_proj svgwrite <br>
-<br>
+
+See the conda version:
+
+```
+    $ conda -V
+```
+
+Update conda
+
+```
+    $ conda update conda
+```
+
+Create a virtual environment for your project (substitute yourenvname by the name of the environment ex: test_01_proj and the x.x by 3.7 the version of Python in the future environment).
+
+```
+    $ conda create -n yourenvname python=x.x anaconda
+    ex: $ conda create -n test_01_proj python=3.7 anaconda
+```
+
+See the environments that were created.
+
+```
+    $ conda info -e
+```
+
+To activate the environment
+
+```
+    $ source activate yourenvname
+    ex: $ source activate test_01_proj
+```
+
+or
+
+```
+    $ conda activate test_01_proj
+```
+
+To desactivate an active environment
+
+```
+    $ source activate yourenvname
+    ex: $ source desactivate
+```
+
+or
+
+```
+    $ conda deactivate
+```
+
+Install additional Python packages to a virtual environment.
+
+```
+    $ conda install -n yourenvname [package]
+    ex: $ conda install -n test_01_proj svgwrite
+```
+
 Delete a no longer needed virtual environment <br>
-$ conda remove -n yourenvname -all <br>
-ex: $ conda remove -n test_01_proj -all <br>
+
+```
+    $ conda remove -n yourenvname -all
+    ex: $ conda remove -n test_01_proj -all
+```
 
 * In your project select the correct interpreter.<br>
 ctrl + shift + p then write "Python select interpreter" command and choose the virtual environment test01_proj that you created from the drop-down selection.   
 
-* Install in Python PyLint and CTags on the virtual environment. <br>
-$ conda install -n test_01_proj -c conda-forge pylint <br>
-$ conda install -n test_01_proj -c conda-forge ctags
+* Install in Python PyLint and CTags on the virtual environment.
+
+```
+    $ conda install -n test_01_proj -c conda-forge pylint
+    $ conda install -n test_01_proj -c conda-forge ctags
+```
 
 * In Visual Studio Code, copy one ".env" file from inside GitHub to the directory of the project, it will initialize the environment variables, adjust the paths to your virtual environment (user). The following is necessary for now because VSCode doesn't activate automatically the virtual environment when debugging.<br>
 For Windows copy the file ".env" in github to your project directory. <br>
