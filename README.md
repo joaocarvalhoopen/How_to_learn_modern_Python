@@ -123,6 +123,13 @@ For Linux copy the file ".env_linux" in github to your project directory and ren
 * For all your Python development your main source of documentation will always be <br>
 [Python 3.x documentation](https://docs.python.org/3/)
 
+* **Jupyter Notebooks** <br>
+  [1. Introduction - Jupyter Tutorial](https://www.youtube.com/watch?v=Rc4JQWowG5I&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=1) <br>
+  [2. Markdown & LaTeX - Jupyter Tutorial](https://www.youtube.com/watch?v=-F4WS8o-G2A&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=4) <br>
+  [3. Python 3 - Jupyter Tutorial](https://www.youtube.com/watch?v=1I2Bz0qbMsc&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=5) <br>
+  [4. Numpy - Jupyter Tutorial](https://www.youtube.com/watch?v=ZABbRR0tfuc&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=6)
+
+
 If you do all this steps you will have a fair knowledge of Python and can start doing some cool projects in Python. <br>
 
 Have fun! <br> 

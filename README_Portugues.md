@@ -124,6 +124,13 @@ Para o Linux copie o ficheiro ".env_linux" do github para a directoria do projec
 * Para todo o desenvolvimento em Python a fonte principal de documentação será sempre o link seguinte para a documentação oficial <br>
 [Python 3.x documentation](https://docs.python.org/3/)
 
+* **Jupyter Notebooks** <br>
+  [1. Introduction - Jupyter Tutorial](https://www.youtube.com/watch?v=Rc4JQWowG5I&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=1) <br>
+  [2. Markdown & LaTeX - Jupyter Tutorial](https://www.youtube.com/watch?v=-F4WS8o-G2A&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=4) <br>
+  [3. Python 3 - Jupyter Tutorial](https://www.youtube.com/watch?v=1I2Bz0qbMsc&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=5) <br>
+  [4. Numpy - Jupyter Tutorial](https://www.youtube.com/watch?v=ZABbRR0tfuc&list=PL1m-6MPBNAZfF-El7BzqaOrCrTBRgH1Nk&index=6)
+
+
 Se fizer todos os passos anteriores, irá possuir um conhecimento bastante abrangente de Python e com isso poderá começar a fazer projectos muito interessantes e divertidos em Python. <br>
 
 Espero que se divirta bastante com o Python!<br> 
